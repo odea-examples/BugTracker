@@ -1,5 +1,6 @@
 package com.odea;
 
+import org.apache.wicket.devutils.debugbar.DebugBar;
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.basic.Label;
 
@@ -11,5 +12,6 @@ import org.apache.wicket.markup.html.basic.Label;
 public class BasePage extends WebPage {
     public BasePage() {
         add(new Label("title","Odea-BugTracker"));
+        add(new DebugBar("debug"));
     }
 }
