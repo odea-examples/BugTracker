@@ -9,6 +9,10 @@
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
+        </sourceRoots>
       </configuration>
     </facet>
     <facet type="wicketforge" name="Wicket">
@@ -182,7 +186,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="Odea-Components-1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.odea.components:Odea-Components:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.wicket:wicket-core:1.5.7" level="project" />
     <orderEntry type="library" name="Maven: org.apache.wicket:wicket-util:1.5.7" level="project" />

@@ -1,3 +1,15 @@
-para ejecutar BugTracker :
-mvn jetty:run
-abrir en un browser localhost:8080
+Para ejecutar BugTracker :
+
+1.- Bajar odea-components
+2.- dentro de odea-components hacer : 
+	mvn clean install
+3.- dentro de bugtracker :
+	mvn jetty:run
+4.- abrir en un browser localhost:8080
+
+
+Para usar en eclipse  :
+(suponiendo que se ejecutaron al menos los pasos 1 y 2 arriba mencionados)
+1.- dentro de bugtracker :
+	mvn eclipse:eclipse
+2.- abrir con eclipse

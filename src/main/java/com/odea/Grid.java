@@ -1,6 +1,7 @@
 package com.odea;
 
 
+import com.odea.components.ajax.AjaxCSVDownloadLink;
 import com.odea.components.jquery.datatable.JQueryBasicDataTable;
 import com.odea.dao.TicketDAO;
 import org.slf4j.Logger;
@@ -19,6 +20,18 @@ public class Grid extends BasePage{
 
     public Grid(){
         logger.debug("Loading big grid");
+        AjaxCSVDownloadLink boton = new AjaxCSVDownloadLink("boton") {
+            @Override
+            protected String getFileName() {
+                return "pepe.csv";
+            }
+
+            @Override
+            protected String getCsvData() {
+                return "pepe,loco,101,2020";
+            }
+        };
+        this.add(boton);
         JQueryBasicDataTable tabla = new JQueryBasicDataTable("tabla") {
             @Override
             public Collection getSearchResults(String searchToken) {

@@ -49,6 +49,7 @@
             <element id="module-output" name="BugTracker" />
           </element>
           <element id="directory" name="lib">
+            <element id="library" level="project" name="Maven: com.odea.components:Odea-Components:1.0-SNAPSHOT" />
             <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.2.1" />
             <element id="library" level="project" name="Maven: org.apache.wicket:wicket-core:1.5.7" />
             <element id="library" level="project" name="Maven: org.apache.wicket:wicket-util:1.5.7" />
@@ -309,6 +310,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.2.1/gson-2.2.1-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.odea.components:Odea-Components:1.0-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/odea/components/Odea-Components/1.0-SNAPSHOT/Odea-Components-1.0-SNAPSHOT.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/odea/components/Odea-Components/1.0-SNAPSHOT/Odea-Components-1.0-SNAPSHOT-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/odea/components/Odea-Components/1.0-SNAPSHOT/Odea-Components-1.0-SNAPSHOT-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: hsqldb:hsqldb:1.8.0.10">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar!/" />
@@ -473,13 +485,6 @@
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.6.2/slf4j-log4j12-1.6.2-sources.jar!/" />
       </SOURCES>
-    </library>
-    <library name="Odea-Components-1.0-SNAPSHOT">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../../Odea-Components/target/Odea-Components-1.0-SNAPSHOT.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
     </library>
   </component>
 </project>
