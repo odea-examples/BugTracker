@@ -20,8 +20,14 @@ public class Condition implements Serializable, Cloneable {
         this.operator = operator;
         this.field = field;
         this.value = value;
+        this.formatValue();
     }
 
+    private void formatValue(){
+        if (this.field.getType().equals(Field.Type.TEXT)) {
+            this.value = "'" + this.value + "'";
+        }
+    }
     @Override
     protected Condition clone() {
         try {
@@ -34,9 +40,6 @@ public class Condition implements Serializable, Cloneable {
     }
 
     public String getCondition() {
-        /*if (this.field.getType().equals(Field.Type.TEXT)) {
-            this.value = "'" + this.value + "'";
-        } */
         return this.field.getColumnName() + this.operator.exp(this.value);
     }
 
@@ -62,5 +65,6 @@ public class Condition implements Serializable, Cloneable {
 
     public void setValue(String value) {
         this.value = value;
+        this.formatValue();
     }
 }
