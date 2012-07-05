@@ -2,11 +2,13 @@ package com.odea.dao;
 
 import com.odea.dao.mock.HSQLDBInitializer;
 import com.odea.domain.Ticket;
+import com.odea.filter.Condition;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 /**
@@ -100,5 +102,31 @@ public class TicketDAO {
         } catch (Exception ex) {
             throw new RuntimeException(ex);
         }
+    }
+
+    public Collection<Ticket> getTickets(List<Condition> condiciones) {
+        StringBuilder sb = new StringBuilder("select * from Tickets where ");
+        
+        for(Condition c : condiciones){
+            if(condiciones.indexOf(c) != 0){
+                sb.append(" and ");
+            }
+            sb.append(c.getCondition());
+        }
+        
+        System.out.println(sb);
+        Collection<Ticket> tickets = new ArrayList<Ticket>();
+
+        try{
+            Statement stmt = hsqldb.getConnection().createStatement();
+            ResultSet rs = stmt.executeQuery(sb.toString());
+            while(rs.next()){
+                tickets.add(this.mapTicket(rs));
+            }
+        }catch(Exception ex){
+            throw new RuntimeException(ex);    
+        }
+        
+        return tickets;
     }
 }

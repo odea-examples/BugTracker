@@ -57,6 +57,10 @@
             <element id="library" level="project" name="Maven: org.apache.wicket:wicket-request:1.5.7" />
             <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.2" />
             <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
+            <element id="library" level="project" name="Maven: com.visural:visural-common:0.5.0" />
+            <element id="library" level="project" name="Maven: com.visural:visural-wicket-w15:0.7.0" />
+            <element id="library" level="project" name="Maven: org.apache.wicket:wicket-devutils:1.5.7" />
+            <element id="library" level="project" name="Maven: org.apache.wicket:wicket-extensions:1.5.7" />
             <element id="library" level="project" name="Maven: hsqldb:hsqldb:1.8.0.10" />
           </element>
         </element>
@@ -321,6 +325,28 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/odea/components/Odea-Components/1.0-SNAPSHOT/Odea-Components-1.0-SNAPSHOT-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.visural:visural-common:0.5.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/visural/visural-common/0.5.0/visural-common-0.5.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/visural/visural-common/0.5.0/visural-common-0.5.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/visural/visural-common/0.5.0/visural-common-0.5.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.visural:visural-wicket-w15:0.7.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/visural/visural-wicket-w15/0.7.0/visural-wicket-w15-0.7.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/visural/visural-wicket-w15/0.7.0/visural-wicket-w15-0.7.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/visural/visural-wicket-w15/0.7.0/visural-wicket-w15-0.7.0-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: hsqldb:hsqldb:1.8.0.10">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar!/" />
@@ -429,6 +455,28 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket-core/1.5.7/wicket-core-1.5.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.wicket:wicket-devutils:1.5.7">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket-devutils/1.5.7/wicket-devutils-1.5.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket-devutils/1.5.7/wicket-devutils-1.5.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket-devutils/1.5.7/wicket-devutils-1.5.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.wicket:wicket-extensions:1.5.7">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket-extensions/1.5.7/wicket-extensions-1.5.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket-extensions/1.5.7/wicket-extensions-1.5.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket-extensions/1.5.7/wicket-extensions-1.5.7-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.apache.wicket:wicket-request:1.5.7">

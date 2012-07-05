@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0835f66e-716c-485b-af71-551316be6cd8" name="Default" comment="hsqldb added&#10;grid demo page&#10;datatable component out">
+    <list default="true" id="0835f66e-716c-485b-af71-551316be6cd8" name="Default" comment="hsqldb added&#10;grid demo page">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/odea/filter/Condition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/odea/filter/ConditionForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/odea/filter/ConditionPanel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/odea/filter/ConditionPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/odea/filter/Field.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/odea/filter/Operator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BugTracker.iml" afterPath="$PROJECT_DIR$/BugTracker.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BugTracker.ipr" afterPath="$PROJECT_DIR$/BugTracker.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BugTracker.iws" afterPath="$PROJECT_DIR$/BugTracker.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/odea/Grid.html" afterPath="$PROJECT_DIR$/src/main/java/com/odea/Grid.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/odea/Grid.java" afterPath="$PROJECT_DIR$/src/main/java/com/odea/Grid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/odea/ListPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/odea/ListPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/odea/dao/TicketDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/odea/dao/TicketDAO.java" />
     </list>
     <ignored path="BugTracker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -200,46 +207,87 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="ConditionPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/filter/ConditionPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="48" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#742#753#0" expanded="true" />
+                <element signature="e#820#837#0" expanded="true" />
+                <element signature="e#1748#1759#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConditionForm.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/filter/ConditionForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="47" selection-start="2139" selection-end="2139" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#683#694#0" expanded="true" />
+                <element signature="e#873#880#0" expanded="true" />
+                <element signature="e#1030#1040#0" expanded="true" />
+                <element signature="e#1188#1196#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConditionPanel.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/filter/ConditionPanel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="32" selection-start="366" selection-end="366" vertical-scroll-proportion="-5.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Condition.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/filter/Condition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="10" selection-start="807" selection-end="807" vertical-scroll-proportion="0.39770555">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Grid.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/Grid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="63" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="59" column="39" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1512#1520#0" expanded="true" />
+                <element signature="e#2780#2787#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasePage.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/BasePage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="64" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Grid.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Grid.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/Grid.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="54" selection-start="2468" selection-end="2468" vertical-scroll-proportion="2.006173">
+            <state line="50" column="89" selection-start="2186" selection-end="2186" vertical-scroll-proportion="-12.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/ListPage.java">
+      <file leaf-file-name="Field.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/filter/Field.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="32" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0">
+            <state line="10" column="13" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/EditPage.java">
+      <file leaf-file-name="Operator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/filter/Operator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="6" column="12" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -248,44 +296,13 @@
       <file leaf-file-name="TicketDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/dao/TicketDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="25" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ticket.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/domain/Ticket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="46" selection-start="2445" selection-end="2445" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HSQLDBInitializer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/dao/mock/HSQLDBInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="33" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasePage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="116" column="29" selection-start="3618" selection-end="3618" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#722#730#0" expanded="true" />
+                <element signature="e#1507#1515#0" expanded="true" />
+                <element signature="e#3671#3679#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -313,22 +330,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/jquery.jqGrid.src.js" />
-        <option value="$PROJECT_DIR$/src/test/java/com/odea/Start.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/odea/components/datatable/basic/DATATABLE_COLUMNS_PLACEHOLDER.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/odea/components/datatable/basic/JQueryBasicDataTable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/odea/components/datatable/basic/basicdatatable.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/odea/components/datatable/basic/AbstractJQueryBasicDataTableBehavior.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/odea/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/odea/Test.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/odea/filter/Operador.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/odea/filter/SqlFilterPanel.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/odea/filter/SqlFilterPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/odea/ListPage.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/odea/ListPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/odea/dao/mock/HSQLDBInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/odea/EditPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/odea/dao/TicketDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/odea/BasePage.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/odea/Grid.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/odea/filter/AjaxConditionForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/odea/filter/ConditionForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/odea/filter/Field.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/odea/Grid.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/odea/Grid.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/odea/filter/ConditionPanel.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/odea/filter/ConditionPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/odea/filter/Operator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/odea/dao/TicketDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/odea/filter/Condition.java" />
       </list>
     </option>
   </component>
@@ -405,7 +422,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -460,6 +477,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -475,11 +496,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -553,7 +578,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
+              <option name="myItemId" value="filter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -584,6 +609,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BugTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BugTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mock" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -643,17 +702,23 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.odea.Start" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="BugTracker" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -709,28 +774,6 @@
       </option>
       <envs />
       <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="HSQLDBInitializer" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.odea.dao.mock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.odea.dao.mock.HSQLDBInitializer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="BugTracker" />
-      <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -854,7 +897,6 @@
       </method>
     </configuration>
     <configuration default="false" name="Jetty 8.1.4.v20120524" type="JettyConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Jetty 8.1.4.v20120524">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/BugTracker-1/" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="BugTracker:war exploded">
@@ -971,12 +1013,11 @@
         </option>
       </method>
     </configuration>
-    <list size="5">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Start" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.OdeaJavaProgrammerFilter.testOdeaJavaProggramerFilter" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.OdeaJavaProgrammerFilter.testOdeaJavaProggramerFilterSingle" />
-      <item index="3" class="java.lang.String" itemvalue="Application.HSQLDBInitializer" />
-      <item index="4" class="java.lang.String" itemvalue="Jetty Server.Jetty 8.1.4.v20120524" />
+      <item index="3" class="java.lang.String" itemvalue="Jetty Server.Jetty 8.1.4.v20120524" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -1041,7 +1082,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5859649" sideWeight="0.5098935" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5859649" sideWeight="0.51598173" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.21754386" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1051,8 +1092,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30898023" sideWeight="0.41403508" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5859649" sideWeight="0.4847793" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21461187" sideWeight="0.41403508" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5859649" sideWeight="0.478691" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Aspects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1097,7 +1138,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="datatables media folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificado la url de prueba" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1114,6 +1155,9 @@
     <MESSAGE value="added search functionality" />
     <MESSAGE value="hsqldb added&#10;grid demo page&#10;datatable component out" />
     <MESSAGE value="datatables media folder" />
+    <MESSAGE value="hsqldb added&#10;grid demo page" />
+    <MESSAGE value="added DebugBar to BasePage" />
+    <MESSAGE value="modificado la url de prueba" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -1160,92 +1204,133 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/odea/Start.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket-core/1.5.7/wicket-core-1.5.7-sources.jar!/org/apache/wicket/markup/html/form/DropDownChoice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/WicketApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/ListPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="49" selection-start="1051" selection-end="1051" vertical-scroll-proportion="-13.125" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../Odea-Components/target/Odea-Components-1.0-SNAPSHOT.jar!/com/odea/components/jquery/datatable/JQueryBasicDataTable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="11" selection-start="279" selection-end="279" vertical-scroll-proportion="0.18072289" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/BasePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="64" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/ListPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="32" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/EditPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/dao/TicketDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="25" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/domain/Ticket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/dao/mock/HSQLDBInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="33" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/Grid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="63" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
+        <state line="92" column="10" selection-start="2951" selection-end="2951" vertical-scroll-proportion="0.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket-core/1.5.7/wicket-core-1.5.7-sources.jar!/org/apache/wicket/ajax/markup/html/form/AjaxButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="46" selection-start="2445" selection-end="2445" vertical-scroll-proportion="0.0">
+        <state line="72" column="11" selection-start="1996" selection-end="1996" vertical-scroll-proportion="-3.3021033">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket-core/1.5.7/wicket-core-1.5.7-sources.jar!/org/apache/wicket/model/CompoundPropertyModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="13" selection-start="1487" selection-end="1487" vertical-scroll-proportion="-0.0114722755">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket-core/1.5.7/wicket-core-1.5.7-sources.jar!/org/apache/wicket/markup/html/form/Form.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="305" column="10" selection-start="11588" selection-end="11588" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket-core/1.5.7/wicket-core-1.5.7-sources.jar!/org/apache/wicket/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="682" column="35" selection-start="27376" selection-end="27376" vertical-scroll-proportion="0.99235183">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket-core/1.5.7/wicket-core-1.5.7-sources.jar!/org/apache/wicket/MarkupContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="9" selection-start="5418" selection-end="5418" vertical-scroll-proportion="0.39005736">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket-core/1.5.7/wicket-core-1.5.7-sources.jar!/org/apache/wicket/markup/html/WebMarkupContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="10" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/Grid.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="54" selection-start="2468" selection-end="2468" vertical-scroll-proportion="2.006173">
+        <state line="50" column="89" selection-start="2186" selection-end="2186" vertical-scroll-proportion="-12.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/Grid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="39" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1512#1520#0" expanded="true" />
+            <element signature="e#2780#2787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/filter/ConditionForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="47" selection-start="2139" selection-end="2139" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#683#694#0" expanded="true" />
+            <element signature="e#873#880#0" expanded="true" />
+            <element signature="e#1030#1040#0" expanded="true" />
+            <element signature="e#1188#1196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/filter/ConditionPanel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="366" selection-end="366" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/filter/ConditionPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="48" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#742#753#0" expanded="true" />
+            <element signature="e#820#837#0" expanded="true" />
+            <element signature="e#1748#1759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/filter/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/dao/TicketDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="29" selection-start="3618" selection-end="3618" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#722#730#0" expanded="true" />
+            <element signature="e#1507#1515#0" expanded="true" />
+            <element signature="e#3671#3679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/filter/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/odea/filter/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="10" selection-start="807" selection-end="807" vertical-scroll-proportion="0.39770555">
           <folding />
         </state>
       </provider>
