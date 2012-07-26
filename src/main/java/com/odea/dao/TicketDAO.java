@@ -4,6 +4,7 @@ import com.odea.dao.mock.HSQLDBInitializer;
 import com.odea.domain.Ticket;
 import com.odea.filter.Condition;
 
+import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
@@ -88,10 +89,21 @@ public class TicketDAO {
     }
 
     public void insertOrUpdate(Ticket t) {
-        deleteTicket(t.getId());
         try {
+            Connection conn = hsqldb.getConnection();
+
+            if(t.getId() == null){
+                String maxId = "select max(id) from Tickets";
+                ResultSet rs = conn.createStatement().executeQuery(maxId);
+                rs.next();
+                t.setId(rs.getLong(1) + 1);
+                rs.close();
+            }else{
+                this.deleteTicket(t.getId());
+            }
+            
             String insert = "INSERT INTO Tickets VALUES (?, ?, ?, ?, ?)";
-            PreparedStatement pstmt = hsqldb.getConnection().prepareStatement(insert);
+            PreparedStatement pstmt = conn.prepareStatement(insert);
             pstmt.setLong(1, t.getId());
             pstmt.setString(2, t.getTitle());
             pstmt.setString(3, t.getDescription());

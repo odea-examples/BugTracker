@@ -28,7 +28,7 @@ public class EditPage extends BasePage {
         this.ticketModel = new CompoundPropertyModel<Ticket>(new LoadableDetachableModel<Ticket>() {
             @Override
             protected Ticket load() {
-                return new Ticket(new Date().getTime(),null,null,TicketType.BUG,TicketStatus.OPEN);
+                return new Ticket(null,null,null,TicketType.BUG,TicketStatus.OPEN);
             }
         });
         this.preparePage();    
