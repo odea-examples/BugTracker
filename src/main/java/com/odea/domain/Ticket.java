@@ -2,12 +2,15 @@ package com.odea.domain;
 
 import java.io.Serializable;
 
+import com.google.gson.Gson;
+import com.odea.components.jquery.datatable.column.Jsonizable;
+
 /**
  * User: pbergonzi
  * Date: 14/06/12
  * Time: 13:04
  */
-public class Ticket implements Serializable,Comparable{
+public class Ticket implements Serializable, Comparable, Jsonizable{
     public int compareTo(Object o) {
         Ticket t = (Ticket)o;
         if(this.getId() < t.getId()){
@@ -84,4 +87,9 @@ public class Ticket implements Serializable,Comparable{
     public void setStatus(TicketStatus status) {
         this.status = status;
     }
+
+	public String toJson() {
+		Gson gson = new Gson();
+		return gson.toJson(this);
+	}
 }

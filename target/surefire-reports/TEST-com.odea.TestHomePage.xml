@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.326" errors="0" skipped="0" tests="1" name="com.odea.TestHomePage">
+  <properties>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="env.SESSION_MANAGER" value="local/gmazzei-desktop:@/tmp/.ICE-unix/1897,unix/gmazzei-desktop:/tmp/.ICE-unix/1897"/>
+    <property name="env.LESSOPEN" value="| /usr/bin/lesspipe %s"/>
+    <property name="localRepository" value="/home/gmazzei/.m2/repository"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="env.CVSROOT" value=":pserver:gmazzei@desarrollo:/var/cvs/cvsroot"/>
+    <property name="sun.management.compiler" value="HotSpot Tiered Compilers"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.boot.class.path" value="/opt/apps/jdk1.6.0_18/jre/lib/resources.jar:/opt/apps/jdk1.6.0_18/jre/lib/rt.jar:/opt/apps/jdk1.6.0_18/jre/lib/sunrsasign.jar:/opt/apps/jdk1.6.0_18/jre/lib/jsse.jar:/opt/apps/jdk1.6.0_18/jre/lib/jce.jar:/opt/apps/jdk1.6.0_18/jre/lib/charsets.jar:/opt/apps/jdk1.6.0_18/jre/classes"/>
+    <property name="env.PWD" value="/home/gmazzei/WorkingDirectory/BT"/>
+    <property name="env.XDG_SESSION_COOKIE" value="6a74c00df002f7c8e1327b3450645d1b-1391689870.916640-1970580851"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="env.LANG" value="es_AR.utf8"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="env.LIBGL_ALWAYS_INDIRECT" value="1"/>
+    <property name="java.runtime.version" value="1.6.0_18-b07"/>
+    <property name="env.DEFAULTS_PATH" value="/usr/share/gconf/gnome.default.path"/>
+    <property name="env.DISPLAY" value=":0.0"/>
+    <property name="user.name" value="gmazzei"/>
+    <property name="env._" value="/opt/apps/apache-maven-2.0.9/bin/mvn"/>
+    <property name="env.USER" value="gmazzei"/>
+    <property name="env.SHELL" value="/bin/bash"/>
+    <property name="env.DESKTOP_SESSION" value="gnome"/>
+    <property name="env.XDG_DATA_DIRS" value="/usr/share/gnome:/usr/local/share/:/usr/share/"/>
+    <property name="env.NLSPATH" value="/usr/dt/lib/nls/msg/%L/%N.cat"/>
+    <property name="env.NODE_PATH" value="/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript"/>
+    <property name="env.PATH" value="/opt/apps/jdk1.6.0_18/bin:/opt/apps/apache-maven-2.0.9/bin:/opt/apps/maven-1.1-beta-2/bin:/opt/apps/bin:/home/gmazzei/Grails/grails-2.2.1/bin:/home/gmazzei/Applications/osmosis/package/bin:/home/gmazzei/Applications/gradle-1.8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"/>
+    <property name="user.language" value="es"/>
+    <property name="sun.boot.library.path" value="/opt/apps/jdk1.6.0_18/jre/lib/i386"/>
+    <property name="classworlds.conf" value="/opt/apps/apache-maven-2.0.9/bin/m2.conf"/>
+    <property name="java.version" value="1.6.0_18"/>
+    <property name="user.timezone" value="America/Argentina/Buenos_Aires"/>
+    <property name="env.DBUS_SESSION_BUS_ADDRESS" value="unix:abstract=/tmp/dbus-3rYX3IiY5u,guid=cd4127e970f2513f1ea21d3852f3808f"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="env.SSH_AGENT_PID" value="1939"/>
+    <property name="java.endorsed.dirs" value="/opt/apps/jdk1.6.0_18/jre/lib/endorsed"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="env.SHLVL" value="1"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="env.GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="env.GDMSESSION" value="gnome"/>
+    <property name="env.GDM_KEYBOARD_LAYOUT" value="es"/>
+    <property name="user.country" value="AR"/>
+    <property name="env.GNOME_KEYRING_PID" value="1878"/>
+    <property name="java.home" value="/opt/apps/jdk1.6.0_18/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="env.LOGNAME" value="gmazzei"/>
+    <property name="os.version" value="2.6.32-54-generic-pae"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="16.0-b13"/>
+    <property name="env.JAVA_HOME" value="/opt/apps/jdk1.6.0_18"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="env.TERM" value="xterm"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="env.GDM_LANG" value="es_AR.utf8"/>
+    <property name="user.home" value="/home/gmazzei"/>
+    <property name="env.OLDPWD" value="/home/gmazzei/WorkingDirectory/BT"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="env.WINDOWID" value="75497476"/>
+    <property name="java.library.path" value="/opt/apps/jdk1.6.0_18/jre/lib/i386/server:/opt/apps/jdk1.6.0_18/jre/lib/i386:/opt/apps/jdk1.6.0_18/jre/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib"/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="/opt/apps/apache-maven-2.0.9"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.class.path" value="/opt/apps/apache-maven-2.0.9/boot/classworlds-1.1.jar"/>
+    <property name="env.XFILESEARCHPATH" value="/usr/dt/app-defaults/%L/Dt"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="env.JAVA_1_4_HOME" value="/opt/apps/j2sdk1.4.2_06"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="env.HOME" value="/home/gmazzei"/>
+    <property name="surefire.test.class.path" value="/home/gmazzei/WorkingDirectory/BT/target/test-classes:/home/gmazzei/WorkingDirectory/BT/target/classes:/home/gmazzei/.m2/repository/com/odea/components/Odea-Components/1.0-SNAPSHOT/Odea-Components-1.0-SNAPSHOT.jar:/home/gmazzei/.m2/repository/com/google/code/gson/gson/2.2.1/gson-2.2.1.jar:/home/gmazzei/.m2/repository/org/apache/wicket/wicket-core/6.1.0/wicket-core-6.1.0.jar:/home/gmazzei/.m2/repository/org/apache/wicket/wicket-util/6.1.0/wicket-util-6.1.0.jar:/home/gmazzei/.m2/repository/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar:/home/gmazzei/.m2/repository/org/apache/wicket/wicket-request/6.1.0/wicket-request-6.1.0.jar:/home/gmazzei/.m2/repository/org/slf4j/slf4j-log4j12/1.6.2/slf4j-log4j12-1.6.2.jar:/home/gmazzei/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/home/gmazzei/.m2/repository/com/visural/visural-common/0.5.0/visural-common-0.5.0.jar:/home/gmazzei/.m2/repository/com/visural/visural-wicket-w15/0.7.0/visural-wicket-w15-0.7.0.jar:/home/gmazzei/.m2/repository/org/apache/wicket/wicket-devutils/1.5.7/wicket-devutils-1.5.7.jar:/home/gmazzei/.m2/repository/org/apache/wicket/wicket-extensions/1.5.7/wicket-extensions-1.5.7.jar:/home/gmazzei/.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar:/home/gmazzei/.m2/repository/org/eclipse/jetty/aggregate/jetty-all-server/7.5.0.v20110901/jetty-all-server-7.5.0.v20110901.jar:/home/gmazzei/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/home/gmazzei/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar:/home/gmazzei/.m2/repository/javax/mail/mail/1.4.1/mail-1.4.1.jar:/home/gmazzei/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/home/gmazzei/.m2/repository/org/apache/geronimo/specs/geronimo-jaspic_1.0_spec/1.0/geronimo-jaspic_1.0_spec-1.0.jar:/home/gmazzei/.m2/repository/org/apache/geronimo/specs/geronimo-annotation_1.0_spec/1.1.1/geronimo-annotation_1.0_spec-1.1.1.jar:/home/gmazzei/.m2/repository/asm/asm-commons/3.1/asm-commons-3.1.jar:/home/gmazzei/.m2/repository/asm/asm-tree/3.1/asm-tree-3.1.jar:/home/gmazzei/.m2/repository/asm/asm/3.1/asm-3.1.jar:/home/gmazzei/.m2/repository/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar:"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="env.LD_LIBRARY_PATH" value="/opt/apps/jdk1.6.0_18/jre/lib/i386/server:/opt/apps/jdk1.6.0_18/jre/lib/i386:/opt/apps/jdk1.6.0_18/jre/../lib/i386"/>
+    <property name="env.LS_COLORS" value="rs=0:di=01;34:ln=01;36:hl=44;37:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="env.SSH_AUTH_SOCK" value="/tmp/keyring-cSaA69/ssh"/>
+    <property name="env.MAVEN_OPTS" value="-Xmx1024m"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="i386"/>
+    <property name="java.ext.dirs" value="/opt/apps/jdk1.6.0_18/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="user.dir" value="/home/gmazzei/WorkingDirectory/BT"/>
+    <property name="env.XAUTHORITY" value="/var/run/gdm/auth-for-gmazzei-jB10J7/database"/>
+    <property name="env.MANDATORY_PATH" value="/usr/share/gconf/gnome.mandatory.path"/>
+    <property name="env.SPEECHD_PORT" value="7560"/>
+    <property name="env.GTK_MODULES" value="canberra-gtk-module"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Server VM"/>
+    <property name="env.COLORTERM" value="gnome-terminal"/>
+    <property name="basedir" value="/home/gmazzei/WorkingDirectory/BT"/>
+    <property name="env.ORBIT_SOCKETDIR" value="/tmp/orbit-gmazzei"/>
+    <property name="env.USERNAME" value="gmazzei"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="env.GNOME_KEYRING_CONTROL" value="/tmp/keyring-cSaA69"/>
+    <property name="env.XDG_CONFIG_DIRS" value="/etc/xdg/xdg-gnome:/etc/xdg"/>
+    <property name="env.LESSCLOSE" value="/usr/bin/lesspipe %s %s"/>
+  </properties>
+  <testcase time="0.315" classname="com.odea.TestHomePage" name="homepageRendersSuccessfully"/>
+</testsuite>

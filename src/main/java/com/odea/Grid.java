@@ -1,22 +1,26 @@
 package com.odea;
 
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+import org.apache.wicket.ajax.AjaxRequestTarget;
+import org.apache.wicket.markup.html.panel.Panel;
+import org.apache.wicket.request.Request;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.odea.components.ajax.AjaxCSVDownloadLink;
+import com.odea.components.jquery.datatable.DatatableConfiguration;
 import com.odea.components.jquery.datatable.JQueryBasicDataTable;
+import com.odea.components.jquery.datatable.column.ActionColumn;
+import com.odea.components.jquery.datatable.column.AttributeColumn;
 import com.odea.dao.TicketDAO;
 import com.odea.domain.Ticket;
 import com.odea.filter.Condition;
 import com.odea.filter.ConditionPanel;
 import com.odea.filter.Field;
-import org.apache.wicket.Component;
-import org.apache.wicket.ajax.AjaxRequestTarget;
-import org.apache.wicket.ajax.IAjaxCallDecorator;
-import org.apache.wicket.ajax.calldecorator.AjaxCallDecorator;
-import org.apache.wicket.markup.html.panel.Panel;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import java.util.*;
 
 /**
  * User: pbergonzi
@@ -46,15 +50,44 @@ public class Grid extends BasePage {
         this.add(boton);
 
         final JQueryBasicDataTable<Ticket> tabla = new JQueryBasicDataTable<Ticket>("tabla") {
-            @Override
-            public Collection<Ticket> getSearchResults(String searchToken) {
-                return Grid.this.getTickets();
-            }
 
-            @Override
-            public String[] getColumns() {
-                return columnas;
-            }
+			@Override
+			public List<ActionColumn> getActionColumns() {
+				//Columnas de edicion, borrado, etc. En este caso no hay ninguna.
+				return new ArrayList<ActionColumn>();
+			}
+
+			@Override
+			public List<AttributeColumn> getAttributeColumns() {
+				
+				List<AttributeColumn> columns = new ArrayList<AttributeColumn>();
+				
+				columns.add(new AttributeColumn("id"));
+				columns.add(new AttributeColumn("title"));
+				columns.add(new AttributeColumn("type"));
+				columns.add(new AttributeColumn("status"));
+				
+				return columns;
+			}
+
+			@Override
+			public DatatableConfiguration getDatatableConfiguration() {
+				return new DatatableConfiguration();
+			}
+
+			@Override
+			public Collection<Ticket> getSearchResults() {
+				return Grid.this.getTickets();
+			}
+
+			@Override
+			public void onRequestParameters(Request arg0, AjaxRequestTarget arg1) {
+				//Este metodo realiza acciones con parametros que llegan desde el Javascript.
+				//Por ejemplo, se selecciona el boton de editar y llegan a este metodo los 
+				//datos del objeto a modificar.
+			}
+
+            
         };
 
         Panel advancedfilter = new ConditionPanel("advancedfilter") {

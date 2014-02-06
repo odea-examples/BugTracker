@@ -20,7 +20,7 @@
         </license>
     </licenses>
     <properties>
-        <wicket.version>1.5.7</wicket.version>
+        <wicket.version>6.1.0</wicket.version>
         <jetty.version>7.5.0.v20110901</jetty.version>
     </properties>
     <dependencies>
@@ -40,20 +40,6 @@
         </dependency>
 
 
-        <!-- VISURAL WICKET DEPS -->
-        <dependency>
-            <groupId>com.visural</groupId>
-            <artifactId>visural-common</artifactId>
-            <version>0.5.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.visural</groupId>
-            <artifactId>visural-wicket-w15</artifactId>
-            <version>0.7.0</version>
-        </dependency>
-
-
         <!--  WICKET DEPENDENCIES -->
         <dependency>
             <groupId>org.apache.wicket</groupId>
@@ -64,7 +50,7 @@
         <dependency>
             <groupId>org.apache.wicket</groupId>
             <artifactId>wicket-devutils</artifactId>
-            <version>1.5.7</version>
+            <version>${wicket.version}</version>
         </dependency>
 
         <!-- OPTIONAL DEPENDENCY
